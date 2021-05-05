@@ -2,6 +2,7 @@
 import './App.css';
 import {axios} from "axios"
 //const s = axios.get("s").then()
+import {Client} from "brawlstars";
 
 function App() {
   return (
