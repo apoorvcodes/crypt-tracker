@@ -1,18 +1,11 @@
 
 import './App.css';
 import {axios} from "axios"
-//const s = axios.get("s").then()
-import {Client} from "brawlstars";
-
+import {fetch} from "node-fetch"
 function App() {
   return (
     <>
-  <div className="hm">
-<h1>Hmm</h1>
-  </div>
-  <h1>
-    ss
-  </h1>
+ 
     </>
   );
 }
