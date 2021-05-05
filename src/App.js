@@ -1,7 +1,8 @@
 
 import './App.css';
 import {axios} from "axios"
-const s = axios.get("s").then()
+//const s = axios.get("s").then()
+
 function App() {
   return (
     <>
