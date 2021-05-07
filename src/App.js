@@ -17,7 +17,7 @@ function App() {
  
   return (
    <>
-   <Button onClick>HeLLO</Button>
+   <Button onClick>hello</Button>
    </>
   );
 }
