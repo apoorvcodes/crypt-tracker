@@ -3,11 +3,9 @@ import github from "gith"
 function github() {
   return (
     <>
-      <head>
-        <span>
-
-        </span>
-      </head>
+   <h1>Welcome</h1>
+   <h2>to Crypt</h2>
+   <button>Get Sarted</button>
     </>
   )
 }
