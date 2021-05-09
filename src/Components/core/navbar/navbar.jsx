@@ -1,9 +1,11 @@
 import React from 'react'
-import "./navba"
-export default function navbar() {
+
+function navbar() {
   return (
     <div>
       
     </div>
   )
 }
+
+export default navbar
