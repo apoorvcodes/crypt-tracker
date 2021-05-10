@@ -8,6 +8,28 @@ function navbar() {
          <NavLink exact to="/" className="nav-logo">
            Crypto 👛
          </NavLink>
+         <ul>
+           <li>
+           <NavLink exact to="/" className="nav-links">
+           Crypto 👛
+         </NavLink>
+           </li>
+           <li>
+           <NavLink exact to="/" className="nav-links">
+           Crypto 👛
+         </NavLink>
+           </li>
+           <li>
+           <NavLink exact to="/" className="nav-links">
+           Crypto 👛
+         </NavLink>
+           </li>
+           <li>
+           <NavLink exact to="/" className="nav-links">
+           Crypto 👛
+         </NavLink>
+           </li>
+         </ul>
        </div>
        </nav> 
      
