@@ -28,7 +28,7 @@ function navbar() {
            </li>
            <li>
            <NavLink exact to="/" className="nav-links">
-           Github <Stats></Stats>
+           Github Stats
             </NavLink>
            </li>
            <li>
