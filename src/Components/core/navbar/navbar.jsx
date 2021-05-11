@@ -28,6 +28,11 @@ function navbar() {
            </li>
            <li>
            <NavLink exact to="/" className="nav-links">
+           Github <Stats></Stats>
+            </NavLink>
+           </li>
+           <li>
+           <NavLink exact to="/" className="nav-links">
            Contact
                     </NavLink>
            </li>
