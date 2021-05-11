@@ -1,33 +1,35 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
+import { FaBeer, FaBitcoin } from 'react-icons/fa';
 function navbar() {
+
   return (
     <>
      <nav className="navbar">
        <div className="nav-container">
          <NavLink exact to="/" className="nav-logo">
-           Crypto 👛
+           Crypto <FaBitcoin/>
          </NavLink>
          <ul>
            <li>
            <NavLink exact to="/" className="nav-links">
-           Crypto 👛
+           Home
          </NavLink>
            </li>
            <li>
            <NavLink exact to="/" className="nav-links">
-           Crypto 👛
+           Crypto Data
          </NavLink>
            </li>
            <li>
            <NavLink exact to="/" className="nav-links">
-           Crypto 👛
+           Api Docs
          </NavLink>
            </li>
            <li>
            <NavLink exact to="/" className="nav-links">
-           Crypto 👛
-         </NavLink>
+           Contact
+                    </NavLink>
            </li>
          </ul>
        </div>
