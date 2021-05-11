@@ -1,6 +1,6 @@
 import React from 'react'
-import {Router} from ""
-function crypto() {
+
+function cryptoapi() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function crypto() {
   )
 }
 
-export default crypto
+export default cryptoapi

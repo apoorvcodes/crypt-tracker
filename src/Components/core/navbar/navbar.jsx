@@ -1,7 +1,8 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
 import { FaBeer, FaBitcoin } from 'react-icons/fa';
-function navbar() {
+import ""
+function NavBar() {
 
   return (
     <>
@@ -44,4 +45,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default NavBar;
