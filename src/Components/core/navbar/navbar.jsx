@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
 import { FaBeer, FaBitcoin } from 'react-icons/fa';
-
+import "./navbar.css";
 function NavBar() {
 
   return (
