@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
 import { FaBeer, FaBitcoin } from 'react-icons/fa';
-import ""
+
 function NavBar() {
 
   return (
@@ -18,22 +18,22 @@ function NavBar() {
          </NavLink>
            </li>
            <li>
-           <NavLink exact to="/" className="nav-links">
+           <NavLink exact to="/crypto" className="nav-links">
            Crypto Data
          </NavLink>
            </li>
            <li>
-           <NavLink exact to="/" className="nav-links">
+           <NavLink exact to="/api" className="nav-links">
            Api Docs
          </NavLink>
            </li>
            <li>
-           <NavLink exact to="/" className="nav-links">
+           <NavLink exact to="/git" className="nav-links">
            Github Stats
             </NavLink>
            </li>
            <li>
-           <NavLink exact to="/" className="nav-links">
+           <NavLink exact to="/contact" className="nav-links">
            Contact
                     </NavLink>
            </li>

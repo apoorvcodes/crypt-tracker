@@ -18,8 +18,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={home} />
             <Route path="/crypto" component={crypto} />
-            <Route path="/apidocs" component={apidocs} />
-            <Route path="/github" component={github} />
+            <Route path="/api" component={apidocs} />
+            <Route path="/git" component={github} />
             <Route path="/contact" component={contact} />
           </Switch>
         </div>
