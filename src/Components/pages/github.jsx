@@ -1,11 +1,9 @@
 import React from 'react'
 
-function github() {
+export const github = () => {
   return (
-    <>
- 
-    </>
+    <div>
+      
+    </div>
   )
 }
-
-export default github
